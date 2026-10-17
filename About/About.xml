@@ -8,7 +8,7 @@
 		<li>1.6</li>
 		<li>1.7</li>
 	</supportedVersions>
-	<description>Three small add-ons for Realistic Orbital Trade by ilyvion.
+	<description>Two small add-ons for Realistic Orbital Trade by ilyvion.
 
 1) Traditional Chinese (繁體中文) translation
 Translates the mod settings, trade window additions, shuttle messages and letters, and both quests (trade agreement and making amends). Terms follow the vanilla Traditional Chinese translation.
@@ -16,10 +16,6 @@ Translates the mod settings, trade window additions, shuttle messages and letter
 2) Find / Trade compatibility (loaded only when Find / Trade is active)
 Problem: when a colonist trades with orbital traders through Find / Trade's automatic barter job, the trade skips Realistic Orbital Trade entirely. Goods vanish from your stockpiles and purchases drop in instantly, with no trade shuttle.
 Fix: each automatic trade now starts a Realistic Orbital Trade agreement, the same way opening comms by hand does, so the usual shuttle quest follows. Traders that Realistic Orbital Trade would not answer (trade already in progress, comms closing, blacklisted) are skipped. If an automatic deal breaks a Realistic Orbital Trade rule (for example shuttle mass capacity), it is rejected with the usual message and no trade happens. Trading by hand already worked and is unchanged.
-
-3) Save-load fix
-Problem: a save made after a trade shuttle has left, but before the trade quest ends, fails to load (errors, then back to the main menu).
-Fix: such saves load normally and the trade finishes as usual.
 
 Notes:
 - Load after Realistic Orbital Trade and Find / Trade. Find / Trade is optional.

@@ -1,4 +1,4 @@
-Three small add-ons for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3236257897]Realistic Orbital Trade[/url] by ilyvion.
+Two small add-ons for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3236257897]Realistic Orbital Trade[/url] by ilyvion.
 
 [h2]1) Traditional Chinese translation / 繁體中文翻譯[/h2]
 Translates the mod settings, trade window additions, shuttle messages and letters, and both quests (trade agreement and making amends). Terms follow the vanilla Traditional Chinese translation.
@@ -11,10 +11,6 @@ Loaded only when [url=https://steamcommunity.com/sharedfiles/filedetails/?id=373
 [b]Problem:[/b] orbital trades made by Find / Trade's automatic barter job skip Realistic Orbital Trade: goods vanish from your stockpiles and purchases drop in instantly, with no trade shuttle.
 
 [b]Fix:[/b] each automatic trade starts a Realistic Orbital Trade agreement, the same as opening comms by hand, so the usual trade shuttle quest follows. Traders that would not answer (trade already in progress, comms closing, blacklisted) are skipped.
-
-[h2]3) Save-load fix[/h2]
-[b]Problem:[/b] a save made after a trade shuttle has left, but before the trade quest ends, fails to load (errors, then back to the main menu).
-[b]Fix:[/b] such saves load normally and the trade finishes as usual.
 
 [h2]Notes[/h2][list]
 [*]Load after Realistic Orbital Trade and Find / Trade. Find / Trade is optional.
