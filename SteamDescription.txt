@@ -1,0 +1,21 @@
+Two small add-ons for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3236257897]Realistic Orbital Trade[/url] by ilyvion.
+
+[h2]1) Traditional Chinese translation / 繁體中文翻譯[/h2]
+Translates the mod settings, trade window additions, shuttle messages and letters, and both quests (trade agreement and making amends). Terms follow the vanilla Traditional Chinese translation.
+
+翻譯模組設定、交易視窗新增的欄位、太空梭訊息與信件，以及兩個任務（交易協議、向公會賠罪）。用詞依照原版遊戲的繁體中文翻譯。
+
+[h2]2) Find / Trade compatibility[/h2]
+Loaded only when [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3736861965]Find / Trade[/url] is active.
+
+[b]Problem:[/b] orbital trades made by Find / Trade's automatic barter job skip Realistic Orbital Trade: goods vanish from your stockpiles and purchases drop in instantly, with no trade shuttle.
+
+[b]Fix:[/b] each automatic trade starts a Realistic Orbital Trade agreement, the same as opening comms by hand, so the usual trade shuttle quest follows. Traders that would not answer (trade already in progress, comms closing, blacklisted) are skipped.
+
+[h2]Notes[/h2][list]
+[*]Load after Realistic Orbital Trade and Find / Trade. Find / Trade is optional.
+[*]An automatic deal that breaks a Realistic Orbital Trade rule (for example shuttle mass capacity) is rejected with the usual message.
+[*]Safe to add to or remove from an existing save.
+[/list]
+[hr][/hr]
+This mod was developed with the help of AI coding tools (Claude Code). Full source code is included in the Source folder and on [url=https://github.com/ifchen0/RealisticOrbitalTradeAddons]GitHub[/url] for review.

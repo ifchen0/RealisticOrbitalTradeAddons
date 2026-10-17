@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ROT_RenegotiateTrade.reportString>正在重新協商交易協議。</ROT_RenegotiateTrade.reportString>
+  <ROT_RegisterAsNegotiator.reportString>正在登記為交易會談代表。</ROT_RegisterAsNegotiator.reportString>
+  <ROT_BuyMoreTime.reportString>正在協商延長太空梭停留時間。</ROT_BuyMoreTime.reportString>
+  <ROT_HaulMultipleToTransporter.reportString>運送TargetA</ROT_HaulMultipleToTransporter.reportString>
+</LanguageData>

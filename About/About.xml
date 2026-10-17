@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Realistic Orbital Trade: 繁體中文翻譯 + Find / Trade Compatibility</name>
+	<author>ifchen0</author>
+	<packageId>ifchen0.realisticorbitaltrade.addons</packageId>
+	<url>https://github.com/ifchen0/RealisticOrbitalTradeAddons</url>
+	<supportedVersions>
+		<li>1.6</li>
+		<li>1.7</li>
+	</supportedVersions>
+	<description>Two small add-ons for Realistic Orbital Trade by ilyvion.
+
+1) Traditional Chinese (繁體中文) translation
+Translates the mod settings, trade window additions, shuttle messages and letters, and both quests (trade agreement and making amends). Terms follow the vanilla Traditional Chinese translation.
+
+2) Find / Trade compatibility (loaded only when Find / Trade is active)
+Problem: when a colonist trades with orbital traders through Find / Trade's automatic barter job, the trade skips Realistic Orbital Trade entirely. Goods vanish from your stockpiles and purchases drop in instantly, with no trade shuttle.
+Fix: each automatic trade now starts a Realistic Orbital Trade agreement, the same way opening comms by hand does, so the usual shuttle quest follows. Traders that Realistic Orbital Trade would not answer (trade already in progress, comms closing, blacklisted) are skipped. If an automatic deal breaks a Realistic Orbital Trade rule (for example shuttle mass capacity), it is rejected with the usual message and no trade happens. Trading by hand already worked and is unchanged.
+
+Notes:
+- Load after Realistic Orbital Trade and Find / Trade. Find / Trade is optional.
+- Safe to add to or remove from an existing save.
+
+This mod was developed with the help of AI coding tools (Claude Code). Full source code is included in the Source folder and on GitHub for review.</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>ilyvion.RealisticOrbitalTrade</packageId>
+			<displayName>Realistic Orbital Trade</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3236257897</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>ilyvion.RealisticOrbitalTrade</li>
+		<li>Memegoddess.FindAndTrade</li>
+	</loadAfter>
+</ModMetaData>

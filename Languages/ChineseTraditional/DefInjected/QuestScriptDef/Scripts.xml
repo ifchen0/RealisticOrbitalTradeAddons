@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ROT_TradeShipMakeAmends.questNameRules.rulesStrings>
+    <li>questName->向軌道商人公會賠罪</li>
+  </ROT_TradeShipMakeAmends.questNameRules.rulesStrings>
+  <ROT_TradeShipMakeAmends.questDescriptionRules.rulesStrings>
+    <li>questDescription->你摧毀了軌道商人的太空梭，你的派系因此被列入軌道商人的交易黑名單。你已經聯絡了其中一位商人並承諾賠償。他們會派一艘太空梭下來，讓你裝上你選擇用來賠償的物品和白銀。</li>
+  </ROT_TradeShipMakeAmends.questDescriptionRules.rulesStrings>
+  <ROT_TradeShipMakeAmends.questContentRules.rulesStrings>
+    <li>introLetterLabel->賠償提議已接受</li>
+    <li>introLetterText->我們已經派了一艘太空梭，讓你裝上你選擇用來賠償的物品和白銀。收到東西後，你就會從黑名單中移除。\n\n別拖太久，我們離開時太空梭也會跟著離開。如果到時你還沒把欠我們的物品送出，賠償提議就會作廢。\n\n因為你過去背叛過我們，為了讓你不敢再犯，我們在太空梭上綁了炸藥。</li>
+    <li>graceTimeLetterLabel->賠償提議寬限期</li>
+    <li>graceTimeLetterText->我們原本再過[graceTimeTimeLeft]就會離開通訊範圍，但這點時間可能不夠你裝完太空梭，所以我們願意在軌道上多等最多[graceTimeTimeExtra]（也就是總共[graceTimeTimeTotal]），讓你完成這次賠償。</li>
+    <li>expiredOfferLetterLabel->賠償提議已過期</li>
+    <li>expiredOfferLetterText->你動作太慢，我們只好在賠償完成前離開。下次請準時一點！\n\n[partialLoadReturned]</li>
+    <li>shuttleKilledLetterLabel->賠償太空梭被摧毀</li>
+    <li>shuttleKilledLetterText->把原本讓你賠罪用的太空梭也摧毀掉，實在是喪心病狂。不過我們很習慣和被列入黑名單的無良派系打交道，這種用途只會派出最破舊、勉強能飛的太空梭，裡面頂多只有幾塊金屬碎片，你這麼做幾乎得不到什麼好處。</li>
+    <li>successLetterLabel->賠償完成</li>
+    <li>successLetterText->軌道商人公會感謝你支付我們要求的賠償。你已恢復良好信譽，我們的商人也願意再次和你交易。\n\n雖然我們可以原諒，但不會忘記，因此今後所有和你進行軌道交易的太空梭都會綁上炸藥。</li>
+    <li>cancelledLetterLabel->賠償提議已取消</li>
+    <li>cancelledLetterText->如果你改變主意，可以再聯絡我們任何一位商人。\n\n[partialLoadReturned]</li>
+    <li>partialLoadReturned->如果你已經把部分東西裝上我們的太空梭，它們已經還給你了。</li>
+  </ROT_TradeShipMakeAmends.questContentRules.rulesStrings>
+
+  <ROT_TradeShipTransportShip.questNameRules.rulesStrings>
+    <li>questName->[traderName]交易協議</li>
+  </ROT_TradeShipTransportShip.questNameRules.rulesStrings>
+  <ROT_TradeShipTransportShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->你已經和軌道商船[traderName]達成交易協議。[shuttlesDescription]</li>
+    <li>shuttlesDescription(toTraderShuttleCount>=2,priority=1)->因為你賣出的物品太重，一艘裝不下，他們會派[toTraderShuttleCount]艘太空梭讓你裝貨。等每一艘都裝完後會一起起飛，之後最後一艘太空梭會抵達並卸下你購買的物品。</li>
+    <li>shuttlesDescription->他們會派兩艘太空梭來完成交易。第一艘讓你裝上賣出的物品，第二艘抵達後會卸下你購買的物品。</li>
+  </ROT_TradeShipTransportShip.questDescriptionRules.rulesStrings>
+  <ROT_TradeShipTransportShip.questContentRules.rulesStrings>
+    <li>tradeAcceptedLetterLabel->交易已接受</li>
+    <li>tradeAcceptedLetterText->[traderName]感謝你的惠顧！\n\n[shuttlesSentText]\n\n別拖太久，我們離開時太空梭也會跟著離開。如果到時你還沒把欠我們的物品送出，交易協議就會作廢。\n\n你可以摧毀軌道商人的太空梭來背叛他們，但這會影響你日後和軌道商人交易的能力。</li>
+    <li>shuttlesSentText(toTraderShuttleCount>=2,priority=1)->因為你賣給我們的東西太重，一艘裝不下，我們派了[toTraderShuttleCount]艘太空梭下去讓你裝貨。等每一艘都裝完後會一起起飛。收到東西後，我們會再派一艘太空梭把你買的東西送下去。</li>
+    <li>shuttlesSentText->我們派了一艘太空梭下去，讓你裝上賣給我們的東西。收到東西後，我們會再派一艘太空梭把你買的東西送下去。</li>
+    <li>tradeShuttleKilledLetterLabel->交易太空梭被摧毀</li>
+    <li>tradeShuttleKilledLetterText->由於你破壞了我們的財產，你的派系已被軌道商人公會列入黑名單。我們相信應該給人第二次機會，因此你日後隨時可以聯絡通訊範圍內的軌道商人，提出賠償造成的損失，外加一筆給我們添麻煩的象徵性費用。在那之前，你無法使用軌道商人的交易服務。</li>
+    <li>graceTimeLetterLabel->交易寬限期</li>
+    <li>graceTimeLetterText->我們原本再過[graceTimeTimeLeft]就會離開通訊範圍，但這點時間可能不夠你裝完太空梭，所以我們願意在軌道上多等最多[graceTimeTimeExtra]（也就是總共[graceTimeTimeTotal]），讓你完成這筆交易。</li>
+    <li>expiredTradeLetterLabel->交易已過期</li>
+    <li>expiredTradeLetterText->你動作太慢，我們只好在交易協議完成前離開。下次交易請準時一點！\n\n[partialLoadReturned]</li>
+    <li>tradeSuccessLetterLabel->交易成功</li>
+    <li>tradeSuccessLetterText->[traderName]感謝你的光顧！</li>
+    <li>cancelledTradeLetterLabel->交易已取消</li>
+    <li>cancelledTradeLetterText->改變主意了？沒關係，這很常見。\n\n[partialLoadReturned]</li>
+    <li>partialLoadReturned->如果你已經把部分東西裝上我們的太空梭，它們已經還給你了。</li>
+    <li>blacklistedLetterLabel->派系被列入交易黑名單</li>
+    <li>blacklistedLetterText->我們接到消息，你做了某些事被軌道商人公會列入黑名單，所以我們立即取消這筆交易。\n\n[partialLoadReturned]</li>
+  </ROT_TradeShipTransportShip.questContentRules.rulesStrings>
+
+</LanguageData>
