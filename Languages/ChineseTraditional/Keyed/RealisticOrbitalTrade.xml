@@ -5,21 +5,21 @@
     <RealisticOrbitalTrade.UseMinimumTradeThresholdLabel>啟用最低交易金額門檻</RealisticOrbitalTrade.UseMinimumTradeThresholdLabel>
     <RealisticOrbitalTrade.UseMinimumTradeThresholdTooltip>軌道商人和船員花時間、燃料和能源派太空梭下來，只為了一件便宜的商品，這合理嗎？啟用此項並在下方設定門檻後，交易總值低於門檻的交易，商人一律不接受。</RealisticOrbitalTrade.UseMinimumTradeThresholdTooltip>
     <RealisticOrbitalTrade.HitPointsTolerancePercentLabel>物品狀態比對容許誤差：{0}%</RealisticOrbitalTrade.HitPointsTolerancePercentLabel>
-    <RealisticOrbitalTrade.HitPointsTolerancePercentTooltip>當物品狀態（耐久度）會影響售價時，太空梭通常要求搬上來的物品狀態和成交時（幾乎）完全相同。此設定允許物品耐久度偏離最多此百分比的最大耐久度（或 5 點耐久度，取較大者），仍視為相符，避免輕微損耗讓交易卡住。</RealisticOrbitalTrade.HitPointsTolerancePercentTooltip>
+    <RealisticOrbitalTrade.HitPointsTolerancePercentTooltip>當物品狀態（耐久度）會影響售價時，太空梭通常要求搬上來的物品狀態和成交時（幾乎）完全相同。此設定允許物品耐久度偏離最多此百分比的最大耐久度（或5點耐久度，取較大者），仍視為相符，避免輕微損耗讓交易卡住。</RealisticOrbitalTrade.HitPointsTolerancePercentTooltip>
     <RealisticOrbitalTrade.MinimumTradeThresholdLabel>最低交易金額門檻基準值</RealisticOrbitalTrade.MinimumTradeThresholdLabel>
     <RealisticOrbitalTrade.MinimumTradeVariationLabel>最低交易金額門檻浮動：{0}%</RealisticOrbitalTrade.MinimumTradeVariationLabel>
-    <RealisticOrbitalTrade.MinimumTradeVariationTooltip>每位商人會隨機產生一個最多為基準值 {0}% 的數值，加到基準門檻上或從中扣除，讓門檻有些變化。</RealisticOrbitalTrade.MinimumTradeVariationTooltip>
+    <RealisticOrbitalTrade.MinimumTradeVariationTooltip>每位商人會隨機產生一個最多為基準值{0}% 的數值，加到基準門檻上或從中扣除，讓門檻有些變化。</RealisticOrbitalTrade.MinimumTradeVariationTooltip>
     <RealisticOrbitalTrade.MultiItemShuttleLoadingLabel>太空梭多物品裝載</RealisticOrbitalTrade.MultiItemShuttleLoadingLabel>
-    <RealisticOrbitalTrade.MultiItemShuttleLoadingTooltip>裝載交易太空梭時，殖民者一次可以搬運多堆物品，而不是每趟只搬一堆，大幅加快大筆交易的裝載速度，類似 Pick Up And Haul 模組對其他搬運工作的做法。關閉後改回原版的太空梭裝載方式，一次只裝一堆物品。</RealisticOrbitalTrade.MultiItemShuttleLoadingTooltip>
-    <RealisticOrbitalTrade.MultiItemShuttleLoadingBlftWarning>已啟用 Bulk Load For Transporters，關閉此項時會由該模組接手太空梭裝載。該模組（撰寫此警告時）不會把基因包或異種細胞從基因庫取出搬運，因此關閉此項且啟用該模組時，存放在基因庫裡的物品不會自動裝上交易太空梭。</RealisticOrbitalTrade.MultiItemShuttleLoadingBlftWarning>
+    <RealisticOrbitalTrade.MultiItemShuttleLoadingTooltip>裝載交易太空梭時，殖民者一次可以搬運多堆物品，而不是每趟只搬一堆，大幅加快大筆交易的裝載速度，類似Pick Up And Haul模組對其他搬運工作的做法。關閉後改回原版的太空梭裝載方式，一次只裝一堆物品。</RealisticOrbitalTrade.MultiItemShuttleLoadingTooltip>
+    <RealisticOrbitalTrade.MultiItemShuttleLoadingBlftWarning>已啟用Bulk Load For Transporters，關閉此項時會由該模組接手太空梭裝載。該模組（撰寫此警告時）不會把基因包或異種細胞從基因庫取出搬運，因此關閉此項且啟用該模組時，存放在基因庫裡的物品不會自動裝上交易太空梭。</RealisticOrbitalTrade.MultiItemShuttleLoadingBlftWarning>
     <RealisticOrbitalTrade.ActiveTradePausesDepartureTimerLabel>進行中的交易協議會暫停商船離開倒數</RealisticOrbitalTrade.ActiveTradePausesDepartureTimerLabel>
     <RealisticOrbitalTrade.ActiveTradePausesDepartureTimerTooltip>預設（未啟用此項）時，即使交易正在進行，軌道商人的離開倒數仍會繼續。啟用後，進行中的交易會暫停倒數，讓你有充裕的時間完成交易。\n\n注意：此設定在交易協議成立時套用，因此修改後不會影響進行中的交易，要到下一筆交易才會生效。</RealisticOrbitalTrade.ActiveTradePausesDepartureTimerTooltip>
     <RealisticOrbitalTrade.NoEffectWhenActiveTradePausesDepartureIsEnabled>啟用「進行中的交易協議會暫停商船離開倒數」時，下方設定沒有作用。</RealisticOrbitalTrade.NoEffectWhenActiveTradePausesDepartureIsEnabled>
-    <RealisticOrbitalTrade.MinTimeUntilDepartureBeforeGraceTimeLabel>距離離開少於此時間才延長停留：{0} 小時</RealisticOrbitalTrade.MinTimeUntilDepartureBeforeGraceTimeLabel>
+    <RealisticOrbitalTrade.MinTimeUntilDepartureBeforeGraceTimeLabel>距離離開少於此時間才延長停留：{0}小時</RealisticOrbitalTrade.MinTimeUntilDepartureBeforeGraceTimeLabel>
     <RealisticOrbitalTrade.MinTimeUntilDepartureBeforeGraceTimeTooltip>如果成交時距離軌道商人離開的時間少於此設定，軌道商人會依下方設定額外延長停留時間。為了平衡，到了原本的離開時間後，軌道商人仍會停止接受新的交易。</RealisticOrbitalTrade.MinTimeUntilDepartureBeforeGraceTimeTooltip>
-    <RealisticOrbitalTrade.DepartureGraceTimeLabel>低於上述時間時延長的停留時間：{0} 小時</RealisticOrbitalTrade.DepartureGraceTimeLabel>
+    <RealisticOrbitalTrade.DepartureGraceTimeLabel>低於上述時間時延長的停留時間：{0}小時</RealisticOrbitalTrade.DepartureGraceTimeLabel>
     <RealisticOrbitalTrade.DepartureGraceTimeTooltip>如果成交時距離軌道商人離開的時間少於上方設定，軌道商人會額外延長這段停留時間。為了平衡，到了原本的離開時間後，軌道商人仍會停止接受新的交易。</RealisticOrbitalTrade.DepartureGraceTimeTooltip>
-    <RealisticOrbitalTrade.BuyMoreTimeHoursLabel>每次「付費延長時間」延長：{0} 小時</RealisticOrbitalTrade.BuyMoreTimeHoursLabel>
+    <RealisticOrbitalTrade.BuyMoreTimeHoursLabel>每次「付費延長時間」延長：{0}小時</RealisticOrbitalTrade.BuyMoreTimeHoursLabel>
     <RealisticOrbitalTrade.BuyMoreTimeHoursTooltip>每次付費延長時間時，交易太空梭的離開倒數會增加多少時間。</RealisticOrbitalTrade.BuyMoreTimeHoursTooltip>
     <RealisticOrbitalTrade.BuyMoreTimeBaseCostLabel>「付費延長時間」基本白銀費用</RealisticOrbitalTrade.BuyMoreTimeBaseCostLabel>
     <RealisticOrbitalTrade.BuyMoreTimeBaseCostTooltip>同一艘交易太空梭第一次「付費延長時間」所需的白銀。</RealisticOrbitalTrade.BuyMoreTimeBaseCostTooltip>
@@ -32,14 +32,14 @@
     <RealisticOrbitalTrade.TradeValueTip>這一列比較商人的最低交易門檻和你目前的交易總值。詳細說明請看各數值的提示。</RealisticOrbitalTrade.TradeValueTip>
     <RealisticOrbitalTrade.TradeLessThanMinimumTradeThreshold>商人拒絕這筆交易，因為交易物品總值（{0}）低於最低交易金額門檻（{1}）</RealisticOrbitalTrade.TradeLessThanMinimumTradeThreshold>
     <RealisticOrbitalTrade.CargoMassLabel>送出貨物重量</RealisticOrbitalTrade.CargoMassLabel>
-    <RealisticOrbitalTrade.CargoMassTip>你賣給商人的物品和生物的總重量，殖民者需要把它們搬上交易太空梭。如果超過一艘太空梭的載重（每艘 {1} 公斤），會分給所需數量的太空梭，等每一艘都裝完後一起起飛。\n\n{0} 公斤</RealisticOrbitalTrade.CargoMassTip>
-    <RealisticOrbitalTrade.CargoMassMultipleShuttles>{0} 公斤（{1} 艘太空梭）</RealisticOrbitalTrade.CargoMassMultipleShuttles>
-    <RealisticOrbitalTrade.TradeContainsItemTooHeavyForShuttle>商人拒絕這筆交易，因為你賣出的生物或物品中，有東西重到一艘交易太空梭也裝不下（載重 {0} 公斤）。</RealisticOrbitalTrade.TradeContainsItemTooHeavyForShuttle>
-    <RealisticOrbitalTrade.TradeExceedsShuttleMassCapacity>商人拒絕這筆交易，因為你賣出的物品和生物（{0} 公斤）超過已派出的交易太空梭載重（{1} 公斤）。請減少交易數量，或取消這筆交易後重新交易。</RealisticOrbitalTrade.TradeExceedsShuttleMassCapacity>
+    <RealisticOrbitalTrade.CargoMassTip>你賣給商人的物品和生物的總重量，殖民者需要把它們搬上交易太空梭。如果超過一艘太空梭的載重（每艘{1}公斤），會分給所需數量的太空梭，等每一艘都裝完後一起起飛。\n\n{0}公斤</RealisticOrbitalTrade.CargoMassTip>
+    <RealisticOrbitalTrade.CargoMassMultipleShuttles>{0}公斤（{1}艘太空梭）</RealisticOrbitalTrade.CargoMassMultipleShuttles>
+    <RealisticOrbitalTrade.TradeContainsItemTooHeavyForShuttle>商人拒絕這筆交易，因為你賣出的生物或物品中，有東西重到一艘交易太空梭也裝不下（載重{0}公斤）。</RealisticOrbitalTrade.TradeContainsItemTooHeavyForShuttle>
+    <RealisticOrbitalTrade.TradeExceedsShuttleMassCapacity>商人拒絕這筆交易，因為你賣出的物品和生物（{0}公斤）超過已派出的交易太空梭載重（{1}公斤）。請減少交易數量，或取消這筆交易後重新交易。</RealisticOrbitalTrade.TradeExceedsShuttleMassCapacity>
     <RealisticOrbitalTrade.IncomingCargoMassLabel>送達貨物重量</RealisticOrbitalTrade.IncomingCargoMassLabel>
-    <RealisticOrbitalTrade.IncomingCargoMassTip>你向商人購買的物品和生物的總重量，會由太空梭送達。超過太空梭載重時以紅色顯示。\n\n{0} / {1} 公斤</RealisticOrbitalTrade.IncomingCargoMassTip>
+    <RealisticOrbitalTrade.IncomingCargoMassTip>你向商人購買的物品和生物的總重量，會由太空梭送達。超過太空梭載重時以紅色顯示。\n\n{0} / {1}公斤</RealisticOrbitalTrade.IncomingCargoMassTip>
     <RealisticOrbitalTrade.ItemMassTip>單件此物品的重量。再多加一件就會超過對應太空梭的剩餘載重時，以紅色顯示。</RealisticOrbitalTrade.ItemMassTip>
-    <RealisticOrbitalTrade.TradeExceedsIncomingShuttleMassCapacity>商人拒絕這筆交易，因為你購買的物品和生物（{0} 公斤）超過交易太空梭的載重（{1} 公斤）。如果要買更多，請分成多筆交易。</RealisticOrbitalTrade.TradeExceedsIncomingShuttleMassCapacity>
+    <RealisticOrbitalTrade.TradeExceedsIncomingShuttleMassCapacity>商人拒絕這筆交易，因為你購買的物品和生物（{0}公斤）超過交易太空梭的載重（{1}公斤）。如果要買更多，請分成多筆交易。</RealisticOrbitalTrade.TradeExceedsIncomingShuttleMassCapacity>
     <RealisticOrbitalTrade.NotAnsweringForGraceTime>{0}只是留下來完成已經開始的協議，沒有興趣開始任何新的交易。</RealisticOrbitalTrade.NotAnsweringForGraceTime>
     <RealisticOrbitalTrade.NotAnsweringForActiveTrade>{0}提醒你先完成目前的交易協議，再開始下一筆。</RealisticOrbitalTrade.NotAnsweringForActiveTrade>
     <RealisticOrbitalTrade.RequiredThings>需要的特定物品</RealisticOrbitalTrade.RequiredThings>
@@ -48,7 +48,7 @@
     <RealisticOrbitalTrade.NotAnsweringForActiveAmendment>{0}提醒你，你正在處理解除黑名單的補償。</RealisticOrbitalTrade.NotAnsweringForActiveAmendment>
     <RealisticOrbitalTrade.PayBlacklistRemovalFeeDialogText>你因為摧毀了我們的一艘太空梭，已被列入軌道商人的交易黑名單。想恢復你在我們這裡的信譽，你必須賠償製造一艘太空梭所需的零件與人工費用，最後我們還會收取一筆象徵性費用，作為你給我們添麻煩的補償。固定費用如下：\n\n{0}</RealisticOrbitalTrade.PayBlacklistRemovalFeeDialogText>
     <RealisticOrbitalTrade.LaborCost>人工：{0}</RealisticOrbitalTrade.LaborCost>
-    <RealisticOrbitalTrade.NominalFeeCost>象徵性費用：{0}（玩家財富的 1%）</RealisticOrbitalTrade.NominalFeeCost>
+    <RealisticOrbitalTrade.NominalFeeCost>象徵性費用：{0}（玩家財富的1%）</RealisticOrbitalTrade.NominalFeeCost>
     <RealisticOrbitalTrade.CostOfParts>你選擇以下列方式賠償：</RealisticOrbitalTrade.CostOfParts>
     <RealisticOrbitalTrade.PayForWith>{0}：{1}</RealisticOrbitalTrade.PayForWith>
     <RealisticOrbitalTrade.PayWith.Parts>歸還</RealisticOrbitalTrade.PayWith.Parts>
@@ -97,7 +97,7 @@
     <RealisticOrbitalTrade.ReservedForTradeMessage>{0}已保留給軌道交易協議，搬上交易太空梭之前不能挪作他用。</RealisticOrbitalTrade.ReservedForTradeMessage>
     <RealisticOrbitalTrade.DepartureRenegotiationExplanationTitle>交易太空梭提前離開</RealisticOrbitalTrade.DepartureRenegotiationExplanationTitle>
     <RealisticOrbitalTrade.DepartureRenegotiationExplanationText>{0}在你的交易太空梭裝完之前就要離開了。已經裝上的東西（包括白銀）已鎖定為你賣出的內容，不能再增加，即使多付白銀也不行。請減少購買的物品，直到商人願意用已裝上的東西交換為止。不接受就關閉協商，整筆交易會失敗，太空梭也會卸貨。</RealisticOrbitalTrade.DepartureRenegotiationExplanationText>
-    <RealisticOrbitalTrade.CantChangeLoadedGoods>{0}不能超過已裝上太空梭的 {1} 個。</RealisticOrbitalTrade.CantChangeLoadedGoods>
+    <RealisticOrbitalTrade.CantChangeLoadedGoods>{0}不能超過已裝上太空梭的{1}個。</RealisticOrbitalTrade.CantChangeLoadedGoods>
     <RealisticOrbitalTrade.RenegotiationLostItemsExplanationTitle>交易已重新平衡</RealisticOrbitalTrade.RenegotiationLostItemsExplanationTitle>
     <RealisticOrbitalTrade.RenegotiationLostItemsIncreasedOwedText>因為你的殖民地在交貨前遺失了這些物品：\n\n{0}\n\n交易價值因此失衡，所以你欠{1}的白銀增加了{2}作為補償。</RealisticOrbitalTrade.RenegotiationLostItemsIncreasedOwedText>
     <RealisticOrbitalTrade.RenegotiationLostItemsDecreasedOwedText>因為你的殖民地在交貨前遺失了這些物品：\n\n{0}\n\n交易價值因此失衡，所以你欠{1}的白銀減少了{2}作為補償。</RealisticOrbitalTrade.RenegotiationLostItemsDecreasedOwedText>
