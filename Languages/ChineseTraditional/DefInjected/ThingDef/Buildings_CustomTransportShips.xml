@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: trade shuttle -->
+  <ROT_ExplosiveRiggedAmendmentTradeShuttle.label>交易太空梭</ROT_ExplosiveRiggedAmendmentTradeShuttle.label>
+  <!-- EN: A trade shuttle sent while you're trying to make amends with a trader you've wronged. It arrives rigged with explosives in case you're still looking to cause trouble. -->
+  <ROT_ExplosiveRiggedAmendmentTradeShuttle.description>你向曾經得罪的商人賠罪期間派來的交易太空梭。抵達時綁著炸藥，以防你還想惹麻煩。</ROT_ExplosiveRiggedAmendmentTradeShuttle.description>
+  <!-- EN: This shuttle is very obviously rigged with some kind of improvised explosive device. -->
+  <ROT_ExplosiveRiggedAmendmentTradeShuttle.comps.CompInspectString.inspectString>這艘太空梭很明顯綁了某種簡易爆炸裝置。</ROT_ExplosiveRiggedAmendmentTradeShuttle.comps.CompInspectString.inspectString>
+  
+  <!-- EN: trade shuttle -->
+  <ROT_ExplosiveRiggedTradeShuttle.label>交易太空梭</ROT_ExplosiveRiggedTradeShuttle.label>
+  <!-- EN: A trade shuttle sent by a trader who's stopped trusting you to deal fairly. It's been openly rigged with explosives; a blunt message not to try swindling them again. -->
+  <ROT_ExplosiveRiggedTradeShuttle.description>不再信任你會公平交易的商人派來的交易太空梭。上面公然綁了炸藥，直白地警告你別再想騙他們。</ROT_ExplosiveRiggedTradeShuttle.description>
+  <!-- EN: This shuttle is very obviously rigged with some kind of improvised explosive device. -->
+  <ROT_ExplosiveRiggedTradeShuttle.comps.CompInspectString.inspectString>這艘太空梭很明顯綁了某種簡易爆炸裝置。</ROT_ExplosiveRiggedTradeShuttle.comps.CompInspectString.inspectString>
+  
+  <!-- EN: trade shuttle -->
+  <ROT_TradeShuttle.label>交易太空梭</ROT_TradeShuttle.label>
+  <!-- EN: A spacer-tech uranium-powered shuttle used by orbital traders to ferry goods to and from the surface during a deal. To prevent hijacking, the shuttle is locked to the pilot's bio-signature. -->
+  <ROT_TradeShuttle.description>以鈾驅動的太空梭，軌道商人在交易期間用來往返地表運送貨物。為了防止劫持，太空梭只能靠駕駛員的生物特徵解鎖。</ROT_TradeShuttle.description>
+  
+</LanguageData>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>tradeAcceptedLetterLabel->Trade accepted</li>
+    <li>tradeAcceptedLetterText->[traderName] appreciates your business!\n\n[shuttlesSentText]\n\nMake sure you don't take too long, the shuttle will leave when we do, and if you have not sent off the items owed to us by then, the trade agreement will be annulled.\n\nYou can betray the orbital trader by destroying their shuttles, but this will have consequences for your future ability to trade with orbital traders.</li>
+    <li>shuttlesSentText(toTraderShuttleCount>=2,priority=1)->We've sent [toTraderShuttleCount] shuttles down for you to load the things you sold to us into, since they were too heavy for just one. They will all take off together once every one of them has been loaded. Once we've received our things, we will send another shuttle down with the things you bought.</li>
+    <li>shuttlesSentText->We've sent a shuttle down for you to load the things you sold to us into. Once we've received our things, we will send another shuttle down with the things you bought.</li>
+    <li>tradeShuttleKilledLetterLabel->Trade shuttle destroyed</li>
+    <li>tradeShuttleKilledLetterText->Due to your vandalism of our property, your faction has been blacklisted in the orbital traders' guild. Because we believe in giving second chances, you may at any future time contact an orbital trader in range of your comms and offer to pay compensation for the damages caused plus a nominal fee for the inconvenience you have caused us. Until such time, the trading services of orbital traders will be unavailable to you.</li>
+    <li>graceTimeLetterLabel->Trade grace period</li>
+    <li>graceTimeLetterText->We were originally going to be leaving comms range in only [graceTimeTimeLeft], but since that might be too little time for you to load up the shuttle, we're willing to wait around in orbit for up to an additional [graceTimeTimeExtra] — i.e. a total of [graceTimeTimeTotal] — to let you complete this trade.</li>
+    <li>expiredTradeLetterLabel->Trade expired</li>
+    <li>expiredTradeLetterText->Due to tardiness, you've unfortunately left us no choice but to leave without concluding the trade agreement. Try to be more prompt with your next trade!\n\n[partialLoadReturned]</li>
+    <li>tradeSuccessLetterLabel->Trade succeeded</li>
+    <li>tradeSuccessLetterText->[traderName] thanks you for your patronage!</li>
+    <li>cancelledTradeLetterLabel->Trade cancelled</li>
+    <li>cancelledTradeLetterText->Changed your mind, huh? That's okay, it happens.\n\n[partialLoadReturned]</li>
+    <li>partialLoadReturned->If you had partially loaded something onto our shuttle, it has been returned to you.</li>
+    <li>blacklistedLetterLabel->Faction blacklisted for trade</li>
+    <li>blacklistedLetterText->We've received word that you've done something to get yourself blacklisted in the orbital traders' guild, so we're immediately cancelling this trade.\n\n[partialLoadReturned]</li>
+  -->
+  <ROT_TradeShipTransportShip.questContentRules.rulesStrings>
+    <li>tradeAcceptedLetterLabel->交易已接受</li>
+    <li>tradeAcceptedLetterText->[traderName]感謝你的惠顧！\n\n[shuttlesSentText]\n\n別拖太久，我們離開時太空梭也會跟著離開。如果到時你還沒把欠我們的物品送出，交易協議就會作廢。\n\n你可以摧毀軌道商人的太空梭來背叛他們，但這會影響你日後和軌道商人交易的能力。</li>
+    <li>shuttlesSentText(toTraderShuttleCount>=2,priority=1)->因為你賣給我們的東西太重，一艘裝不下，我們派了[toTraderShuttleCount]艘太空梭下去讓你裝貨。等每一艘都裝完後會一起起飛。收到東西後，我們會再派一艘太空梭把你買的東西送下去。</li>
+    <li>shuttlesSentText->我們派了一艘太空梭下去，讓你裝上賣給我們的東西。收到東西後，我們會再派一艘太空梭把你買的東西送下去。</li>
+    <li>tradeShuttleKilledLetterLabel->交易太空梭被摧毀</li>
+    <li>tradeShuttleKilledLetterText->由於你破壞了我們的財產，你的派系已被軌道商人公會列入黑名單。我們相信應該給人第二次機會，因此你日後隨時可以聯絡通訊範圍內的軌道商人，提出賠償造成的損失，外加一筆給我們添麻煩的象徵性費用。在那之前，你無法使用軌道商人的交易服務。</li>
+    <li>graceTimeLetterLabel->交易寬限期</li>
+    <li>graceTimeLetterText->我們原本再過[graceTimeTimeLeft]就會離開通訊範圍，但這點時間可能不夠你裝完太空梭，所以我們願意在軌道上多等最多[graceTimeTimeExtra]（也就是總共[graceTimeTimeTotal]），讓你完成這筆交易。</li>
+    <li>expiredTradeLetterLabel->交易已過期</li>
+    <li>expiredTradeLetterText->你動作太慢，我們只好在交易協議完成前離開。下次交易請準時一點！\n\n[partialLoadReturned]</li>
+    <li>tradeSuccessLetterLabel->交易成功</li>
+    <li>tradeSuccessLetterText->[traderName]感謝你的光顧！</li>
+    <li>cancelledTradeLetterLabel->交易已取消</li>
+    <li>cancelledTradeLetterText->改變主意了？沒關係，這很常見。\n\n[partialLoadReturned]</li>
+    <li>partialLoadReturned->如果你已經把部分東西裝上我們的太空梭，它們已經還給你了。</li>
+    <li>blacklistedLetterLabel->派系被列入交易黑名單</li>
+    <li>blacklistedLetterText->我們接到消息，你做了某些事被軌道商人公會列入黑名單，所以我們立即取消這筆交易。\n\n[partialLoadReturned]</li>
+  </ROT_TradeShipTransportShip.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->You have entered into a trade agreement with the orbital trade ship [traderName]. [shuttlesDescription]</li>
+    <li>shuttlesDescription(toTraderShuttleCount>=2,priority=1)->They'll be sending [toTraderShuttleCount] shuttles for you to load your sold items into, since they were too heavy for just one. They will all take off together once every one of them has been loaded, and then a final shuttle will arrive and unload your bought items.</li>
+    <li>shuttlesDescription->They'll be sending two shuttles for you to complete the deal. The first one you will load your sold items into, and the second will unload your bought items upon arrival.</li>
+  -->
+  <ROT_TradeShipTransportShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->你已經和軌道商船[traderName]達成交易協議。[shuttlesDescription]</li>
+    <li>shuttlesDescription(toTraderShuttleCount>=2,priority=1)->因為你賣出的物品太重，一艘裝不下，他們會派[toTraderShuttleCount]艘太空梭讓你裝貨。等每一艘都裝完後會一起起飛，之後最後一艘太空梭會抵達並卸下你購買的物品。</li>
+    <li>shuttlesDescription->他們會派兩艘太空梭來完成交易。第一艘讓你裝上賣出的物品，第二艘抵達後會卸下你購買的物品。</li>
+  </ROT_TradeShipTransportShip.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[traderName] trade agreement</li>
+  -->
+  <ROT_TradeShipTransportShip.questNameRules.rulesStrings>
+    <li>questName->[traderName]交易協議</li>
+  </ROT_TradeShipTransportShip.questNameRules.rulesStrings>
+  
+</LanguageData>

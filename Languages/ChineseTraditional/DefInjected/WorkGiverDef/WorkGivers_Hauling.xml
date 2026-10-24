@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: load trade shuttle (multiple items) -->
+  <ROT_HaulMultipleToTransporter.label>裝載交易太空梭（多物品）</ROT_HaulMultipleToTransporter.label>
+  <!-- EN: loading -->
+  <ROT_HaulMultipleToTransporter.gerund>裝載</ROT_HaulMultipleToTransporter.gerund>
+  <!-- EN: load -->
+  <ROT_HaulMultipleToTransporter.verb>裝載</ROT_HaulMultipleToTransporter.verb>
+  
+</LanguageData>

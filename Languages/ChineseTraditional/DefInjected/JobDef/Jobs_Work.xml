@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: negotiating additional shuttle time. -->
+  <ROT_BuyMoreTime.reportString>正在協商延長太空梭停留時間。</ROT_BuyMoreTime.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <ROT_HaulMultipleToTransporter.reportString>運送TargetA</ROT_HaulMultipleToTransporter.reportString>
+  
+  <!-- EN: registering as trade negotiator. -->
+  <ROT_RegisterAsNegotiator.reportString>正在登記為交易會談代表。</ROT_RegisterAsNegotiator.reportString>
+  
+  <!-- EN: renegotiating trade agreement. -->
+  <ROT_RenegotiateTrade.reportString>正在重新協商交易協議。</ROT_RenegotiateTrade.reportString>
+  
+</LanguageData>

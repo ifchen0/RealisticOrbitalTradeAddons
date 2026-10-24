@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: Deliver items via drop pod -->
+  <RealisticOrbitalTrade.DeliverItemsViaDropPodLabel>以運輸艙送達購買的物品</RealisticOrbitalTrade.DeliverItemsViaDropPodLabel>
+
+  <!-- EN: Enabling this option allows the orbital trader to deliver items to your colony via drop pod like in vanilla, rather than sending a shuttle that drops them off.\n\nNOTE: The setting's value is applied to a trade agreement upon initiation. Therefore, altering this value won't impact ongoing trades; it will take effect only when you initiate your next trade. -->
+  <RealisticOrbitalTrade.DeliverItemsViaDropPodTooltip>啟用後，軌道商人會像原版一樣以運輸艙把物品送到殖民地，而不是派太空梭送貨。\n\n注意：此設定在交易協議成立時套用，因此修改後不會影響進行中的交易，要到下一筆交易才會生效。</RealisticOrbitalTrade.DeliverItemsViaDropPodTooltip>
+
+  <!-- EN: Enforce minimum trade value threshold -->
+  <RealisticOrbitalTrade.UseMinimumTradeThresholdLabel>啟用最低交易金額門檻</RealisticOrbitalTrade.UseMinimumTradeThresholdLabel>
+
+  <!-- EN: Does it really make sense for an orbital trader and their crew to spend the time, fuel and energy it takes to send down shuttles all for the sake of a single, cheap trade item? Enabling this and setting a threshold value below makes it so the traders won't accept trades that involves an exchange worth less than the threshold. -->
+  <RealisticOrbitalTrade.UseMinimumTradeThresholdTooltip>軌道商人和船員花時間、燃料和能源派太空梭下來，只為了一件便宜的商品，這合理嗎？啟用此項並在下方設定門檻後，交易總值低於門檻的交易，商人一律不接受。</RealisticOrbitalTrade.UseMinimumTradeThresholdTooltip>
+
+  <!-- EN: Item condition matching tolerance: {0}% -->
+  <RealisticOrbitalTrade.HitPointsTolerancePercentLabel>物品狀態比對容許誤差：{0}%</RealisticOrbitalTrade.HitPointsTolerancePercentLabel>
+
+  <!-- EN: When a traded item's condition (hit points) affects its price, the shuttle normally requires the hauled item to still be in (almost) the exact condition it was in when the deal was struck. This setting allows the item's hit points to drift by up to this percentage of its maximum (or 5 hit points, whichever is larger) and still count as a match, so minor deterioration doesn't get a trade stuck. -->
+  <RealisticOrbitalTrade.HitPointsTolerancePercentTooltip>當物品狀態（耐久度）會影響售價時，太空梭通常要求搬上來的物品狀態和成交時（幾乎）完全相同。此設定允許物品耐久度偏離最多此百分比的最大耐久度（或5點耐久度，取較大者），仍視為相符，避免輕微損耗讓交易卡住。</RealisticOrbitalTrade.HitPointsTolerancePercentTooltip>
+
+  <!-- EN: Minimum trade value threshold baseline -->
+  <RealisticOrbitalTrade.MinimumTradeThresholdLabel>最低交易金額門檻基準值</RealisticOrbitalTrade.MinimumTradeThresholdLabel>
+
+  <!-- EN: Minimum trade value threshold variation: {0}% -->
+  <RealisticOrbitalTrade.MinimumTradeVariationLabel>最低交易金額門檻浮動：{0}%</RealisticOrbitalTrade.MinimumTradeVariationLabel>
+
+  <!-- EN: For each trader, a random value up to {0}% of the baseline is calculated and either added to or subtracted from the baseline threshold to give the threshold some variation. -->
+  <RealisticOrbitalTrade.MinimumTradeVariationTooltip>每位商人會隨機產生一個最多為基準值{0}% 的數值，加到基準門檻上或從中扣除，讓門檻有些變化。</RealisticOrbitalTrade.MinimumTradeVariationTooltip>
+
+  <!-- EN: Multi-item shuttle loading -->
+  <RealisticOrbitalTrade.MultiItemShuttleLoadingLabel>太空梭多物品裝載</RealisticOrbitalTrade.MultiItemShuttleLoadingLabel>
+
+  <!-- EN: Lets colonists carry several stacks of goods at once when loading a trade shuttle instead of hauling one stack per trip, which speeds up loading large trades considerably, much like how the mod Pick Up And Haul works for other kinds of hauling. Turning it off returns vanilla's shuttle-loading code, which loads a single stack of items at a time. -->
+  <RealisticOrbitalTrade.MultiItemShuttleLoadingTooltip>裝載交易太空梭時，殖民者一次可以搬運多堆物品，而不是每趟只搬一堆，大幅加快大筆交易的裝載速度，類似Pick Up And Haul模組對其他搬運工作的做法。關閉後改回原版的太空梭裝載方式，一次只裝一堆物品。</RealisticOrbitalTrade.MultiItemShuttleLoadingTooltip>
+
+  <!-- EN: Bulk Load For Transporters is active and will take over shuttle loading while this is disabled. That mod does not know how to haul genepacks or xenogerms out of genebanks (at the time of writing this warning), so items stored in genebanks won't get loaded onto trade shuttles automatically with this setting off and that mod active. -->
+  <RealisticOrbitalTrade.MultiItemShuttleLoadingBlftWarning>已啟用Bulk Load For Transporters，關閉此項時會由該模組接手太空梭裝載。該模組（撰寫此警告時）不會把基因包或異種細胞從基因庫取出搬運，因此關閉此項且啟用該模組時，存放在基因庫裡的物品不會自動裝上交易太空梭。</RealisticOrbitalTrade.MultiItemShuttleLoadingBlftWarning>
+
+  <!-- EN: Active trade agreement pauses trade ship departure timer -->
+  <RealisticOrbitalTrade.ActiveTradePausesDepartureTimerLabel>進行中的交易協議會暫停商船離開倒數</RealisticOrbitalTrade.ActiveTradePausesDepartureTimerLabel>
+
+  <!-- EN: By default (when this option is not enabled), the departure timer for the orbital trader continues ticking even during an active trade. However, when this option is enabled, an active trade pauses the timer, allowing you to take all the time you need to complete your trades.\n\nNOTE: The setting's value is applied to a trade agreement upon initiation. Therefore, altering this value won't impact ongoing trades; it will take effect only when you initiate your next trade. -->
+  <RealisticOrbitalTrade.ActiveTradePausesDepartureTimerTooltip>預設（未啟用此項）時，即使交易正在進行，軌道商人的離開倒數仍會繼續。啟用後，進行中的交易會暫停倒數，讓你有充裕的時間完成交易。\n\n注意：此設定在交易協議成立時套用，因此修改後不會影響進行中的交易，要到下一筆交易才會生效。</RealisticOrbitalTrade.ActiveTradePausesDepartureTimerTooltip>
+
+  <!-- EN: The settings below have no effect when the "Active trade agreement pauses trade ship departure timer" setting is enabled. -->
+  <RealisticOrbitalTrade.NoEffectWhenActiveTradePausesDepartureIsEnabled>啟用「進行中的交易協議會暫停商船離開倒數」時，下方設定沒有作用。</RealisticOrbitalTrade.NoEffectWhenActiveTradePausesDepartureIsEnabled>
+
+  <!-- EN: Minimum time until departure before adding grace time: {0} hours -->
+  <RealisticOrbitalTrade.MinTimeUntilDepartureBeforeGraceTimeLabel>距離離開少於此時間才延長停留：{0}小時</RealisticOrbitalTrade.MinTimeUntilDepartureBeforeGraceTimeLabel>
+
+  <!-- EN: If a trade is made when there is less time left before an orbital trader leaves than this setting, the orbital trader will extend their stay with an additional amount of time configurable below. For the sake of balance, the orbital trader will still stop accepting new trades once the original departure time is reached. -->
+  <RealisticOrbitalTrade.MinTimeUntilDepartureBeforeGraceTimeTooltip>如果成交時距離軌道商人離開的時間少於此設定，軌道商人會依下方設定額外延長停留時間。為了平衡，到了原本的離開時間後，軌道商人仍會停止接受新的交易。</RealisticOrbitalTrade.MinTimeUntilDepartureBeforeGraceTimeTooltip>
+
+  <!-- EN: Grace time added if below minimum time: {0} hours -->
+  <RealisticOrbitalTrade.DepartureGraceTimeLabel>低於上述時間時延長的停留時間：{0}小時</RealisticOrbitalTrade.DepartureGraceTimeLabel>
+
+  <!-- EN: If a trade is made when there is less time left before an orbital trader leaves than the amount of time configurable above, the orbital trader will extend their stay with this additional amount of time. For the sake of balance, the orbital trader will still stop accepting new trades once the original departure time is reached. -->
+  <RealisticOrbitalTrade.DepartureGraceTimeTooltip>如果成交時距離軌道商人離開的時間少於上方設定，軌道商人會額外延長這段停留時間。為了平衡，到了原本的離開時間後，軌道商人仍會停止接受新的交易。</RealisticOrbitalTrade.DepartureGraceTimeTooltip>
+
+  <!-- EN: Time added per "Buy more time" purchase: {0} hours -->
+  <RealisticOrbitalTrade.BuyMoreTimeHoursLabel>每次「付費延長時間」延長：{0}小時</RealisticOrbitalTrade.BuyMoreTimeHoursLabel>
+
+  <!-- EN: How much extra time is added to a trade shuttle's departure timer each time you pay to buy more time. -->
+  <RealisticOrbitalTrade.BuyMoreTimeHoursTooltip>每次付費延長時間時，交易太空梭的離開倒數會增加多少時間。</RealisticOrbitalTrade.BuyMoreTimeHoursTooltip>
+
+  <!-- EN: "Buy more time" base silver cost -->
+  <RealisticOrbitalTrade.BuyMoreTimeBaseCostLabel>「付費延長時間」基本白銀費用</RealisticOrbitalTrade.BuyMoreTimeBaseCostLabel>
+
+  <!-- EN: The silver cost of the first "Buy more time" purchase for a given trade shuttle. -->
+  <RealisticOrbitalTrade.BuyMoreTimeBaseCostTooltip>同一艘交易太空梭第一次「付費延長時間」所需的白銀。</RealisticOrbitalTrade.BuyMoreTimeBaseCostTooltip>
+
+  <!-- EN: "Buy more time" cost growth per purchase: x{0} -->
+  <RealisticOrbitalTrade.BuyMoreTimeCostGrowthLabel>「付費延長時間」每次費用倍率：x{0}</RealisticOrbitalTrade.BuyMoreTimeCostGrowthLabel>
+
+  <!-- EN: Each additional "Buy more time" purchase for the same trade shuttle multiplies the silver cost by this amount, so stalling a shuttle indefinitely gets increasingly expensive. -->
+  <RealisticOrbitalTrade.BuyMoreTimeCostGrowthTooltip>同一艘交易太空梭每多一次「付費延長時間」，白銀費用就乘上此倍率，想無限期拖住太空梭會越來越貴。</RealisticOrbitalTrade.BuyMoreTimeCostGrowthTooltip>
+
+  <!-- EN: The minimum amount of trade item value this trader is willing to trade for -->
+  <RealisticOrbitalTrade.TradersMinimumTradeThreshold>這位商人願意接受的最低交易物品總值</RealisticOrbitalTrade.TradersMinimumTradeThreshold>
+
+  <!-- EN: The current value of the items you have chosen to trade -->
+  <RealisticOrbitalTrade.CurrentTradeValue>你目前選擇交易的物品總值</RealisticOrbitalTrade.CurrentTradeValue>
+
+  <!-- EN: The difference between the current value of the items you have chosen to trade and the minimum value required by the trader. The value is negative and yellow when it's lower than required, and positive and green otherwise. -->
+  <RealisticOrbitalTrade.TradeValueDifference>你目前選擇交易的物品總值和商人要求的最低總值之間的差額。低於要求時為負值並以黃色顯示，否則為正值並以綠色顯示。</RealisticOrbitalTrade.TradeValueDifference>
+
+  <!-- EN: trade value -->
+  <RealisticOrbitalTrade.TradeValue>交易總值</RealisticOrbitalTrade.TradeValue>
+
+  <!-- EN: This row shows the status of the trader's minimum trade threshold compared to your current trade value. See the other tips on the numeric values for more information. -->
+  <RealisticOrbitalTrade.TradeValueTip>這一列比較商人的最低交易門檻和你目前的交易總值。詳細說明請看各數值的提示。</RealisticOrbitalTrade.TradeValueTip>
+
+  <!-- EN: The trader is rejecting this trade because the total value of the traded items ({0}) is less than the enforced minimum trade value threshold ({1}) -->
+  <RealisticOrbitalTrade.TradeLessThanMinimumTradeThreshold>商人拒絕這筆交易，因為交易物品總值（{0}）低於最低交易金額門檻（{1}）</RealisticOrbitalTrade.TradeLessThanMinimumTradeThreshold>
+
+  <!-- EN: outgoing cargo mass -->
+  <RealisticOrbitalTrade.CargoMassLabel>送出貨物重量</RealisticOrbitalTrade.CargoMassLabel>
+
+  <!-- EN: The combined mass of the items and creatures you're selling to the trader, which colonists will need to haul onto the trade shuttles. If it's more than one shuttle can carry ({1} kg each), it's divided across as many shuttles as it takes, and they all take off together once every one of them is loaded.\n\n{0} kg -->
+  <RealisticOrbitalTrade.CargoMassTip>你賣給商人的物品和生物的總重量，殖民者需要把它們搬上交易太空梭。如果超過一艘太空梭的載重（每艘{1}公斤），會分給所需數量的太空梭，等每一艘都裝完後一起起飛。\n\n{0}公斤</RealisticOrbitalTrade.CargoMassTip>
+
+  <!-- EN: {0} kg ({1} shuttles) -->
+  <RealisticOrbitalTrade.CargoMassMultipleShuttles>{0}公斤（{1}艘太空梭）</RealisticOrbitalTrade.CargoMassMultipleShuttles>
+
+  <!-- EN: The trader is rejecting this trade because the creatures or items you're selling include something too heavy to fit on a single trade shuttle (cargo capacity {0} kg). -->
+  <RealisticOrbitalTrade.TradeContainsItemTooHeavyForShuttle>商人拒絕這筆交易，因為你賣出的生物或物品中，有東西重到一艘交易太空梭也裝不下（載重{0}公斤）。</RealisticOrbitalTrade.TradeContainsItemTooHeavyForShuttle>
+
+  <!-- EN: The trader is rejecting this trade because the items and creatures you're selling ({0} kg) exceed the capacity of the trade shuttles already sent ({1} kg). Trade fewer things, or cancel this trade and make a new one. -->
+  <RealisticOrbitalTrade.TradeExceedsShuttleMassCapacity>商人拒絕這筆交易，因為你賣出的物品和生物（{0}公斤）超過已派出的交易太空梭載重（{1}公斤）。請減少交易數量，或取消這筆交易後重新交易。</RealisticOrbitalTrade.TradeExceedsShuttleMassCapacity>
+
+  <!-- EN: incoming cargo mass -->
+  <RealisticOrbitalTrade.IncomingCargoMassLabel>送達貨物重量</RealisticOrbitalTrade.IncomingCargoMassLabel>
+
+  <!-- EN: The combined mass of the items and creatures you're buying from the trader, which will arrive by shuttle. Shown in red once it exceeds the shuttle's cargo capacity.\n\n{0} / {1} kg -->
+  <RealisticOrbitalTrade.IncomingCargoMassTip>你向商人購買的物品和生物的總重量，會由太空梭送達。超過太空梭載重時以紅色顯示。\n\n{0} / {1}公斤</RealisticOrbitalTrade.IncomingCargoMassTip>
+
+  <!-- EN: The mass of a single one of this item, shown in red once adding one more would exceed the relevant shuttle's remaining cargo capacity. -->
+  <RealisticOrbitalTrade.ItemMassTip>單件此物品的重量。再多加一件就會超過對應太空梭的剩餘載重時，以紅色顯示。</RealisticOrbitalTrade.ItemMassTip>
+
+  <!-- EN: The trader is rejecting this trade because the items and creatures you're buying ({0} kg) exceed the trade shuttle's cargo capacity ({1} kg). Split the purchase across multiple trades if you need to trade more. -->
+  <RealisticOrbitalTrade.TradeExceedsIncomingShuttleMassCapacity>商人拒絕這筆交易，因為你購買的物品和生物（{0}公斤）超過交易太空梭的載重（{1}公斤）。如果要買更多，請分成多筆交易。</RealisticOrbitalTrade.TradeExceedsIncomingShuttleMassCapacity>
+
+  <!-- EN: {0} is only waiting around to finish an already started agreement and is not interesting in initiating any new trades. -->
+  <RealisticOrbitalTrade.NotAnsweringForGraceTime>{0}只是留下來完成已經開始的協議，沒有興趣開始任何新的交易。</RealisticOrbitalTrade.NotAnsweringForGraceTime>
+
+  <!-- EN: {0} reminds you to finish up your current trade agreement before starting another. -->
+  <RealisticOrbitalTrade.NotAnsweringForActiveTrade>{0}提醒你先完成目前的交易協議，再開始下一筆。</RealisticOrbitalTrade.NotAnsweringForActiveTrade>
+
+  <!-- EN: Required specific items -->
+  <RealisticOrbitalTrade.RequiredThings>需要的特定物品</RealisticOrbitalTrade.RequiredThings>
+
+  <!-- EN: Cancel trade agreement -->
+  <RealisticOrbitalTrade.CancelTradeAgreementLabel>取消交易協議</RealisticOrbitalTrade.CancelTradeAgreementLabel>
+
+  <!-- EN: Cancels the trade agreement associated with this shuttle. Any partially loaded items will be unloaded first, then the shuttle will leave. -->
+  <RealisticOrbitalTrade.CancelTradeAgreementDesc>取消這艘太空梭相關的交易協議。已部分裝上的物品會先卸下，然後太空梭離開。</RealisticOrbitalTrade.CancelTradeAgreementDesc>
+
+  <!-- EN: {0} reminds you that you're already in the middle of amending your blacklisting status. -->
+  <RealisticOrbitalTrade.NotAnsweringForActiveAmendment>{0}提醒你，你正在處理解除黑名單的補償。</RealisticOrbitalTrade.NotAnsweringForActiveAmendment>
+
+  <!-- EN: You were blacklisted from trading with orbital traders for destroying one of our shuttles. In order to have your good standing with us reinstated, you will have to pay us back for the parts it takes to produce a shuttle plus the cost of the labor, and finally we charge a nominal fee for the inconvenience you have caused us. The fixed costs are:\n\n{0} -->
+  <RealisticOrbitalTrade.PayBlacklistRemovalFeeDialogText>你因為摧毀了我們的一艘太空梭，已被列入軌道商人的交易黑名單。想恢復你在我們這裡的信譽，你必須賠償製造一艘太空梭所需的零件與人工費用，最後我們還會收取一筆象徵性費用，作為你給我們添麻煩的補償。固定費用如下：\n\n{0}</RealisticOrbitalTrade.PayBlacklistRemovalFeeDialogText>
+
+  <!-- EN: Labor: {0} -->
+  <RealisticOrbitalTrade.LaborCost>人工：{0}</RealisticOrbitalTrade.LaborCost>
+
+  <!-- EN: Nominal fee: {0} (1% of player wealth) -->
+  <RealisticOrbitalTrade.NominalFeeCost>象徵性費用：{0}（玩家財富的1%）</RealisticOrbitalTrade.NominalFeeCost>
+
+  <!-- EN: You've chosen to pay us back in the following manner: -->
+  <RealisticOrbitalTrade.CostOfParts>你選擇以下列方式賠償：</RealisticOrbitalTrade.CostOfParts>
+
+  <!-- EN: {0}: {1} -->
+  <RealisticOrbitalTrade.PayForWith>{0}：{1}</RealisticOrbitalTrade.PayForWith>
+
+  <!-- EN: Returning -->
+  <RealisticOrbitalTrade.PayWith.Parts>歸還</RealisticOrbitalTrade.PayWith.Parts>
+
+  <!-- EN: Paying for with {0} -->
+  <RealisticOrbitalTrade.PayWith.Silver>以{0}支付</RealisticOrbitalTrade.PayWith.Silver>
+
+  <!-- EN: How would you like to pay for the {0}? -->
+  <RealisticOrbitalTrade.HowPayForParts>你想怎麼賠償{0}？</RealisticOrbitalTrade.HowPayForParts>
+
+  <!-- EN: Return the {0} -->
+  <RealisticOrbitalTrade.PayForPartsWithParts>歸還{0}</RealisticOrbitalTrade.PayForPartsWithParts>
+
+  <!-- EN: Pay for the {0} ({1}) -->
+  <RealisticOrbitalTrade.PayForPartsWithSilver>支付{0}的費用（{1}）</RealisticOrbitalTrade.PayForPartsWithSilver>
+
+  <!-- EN: You've made your choices, are you ready to pay us back? -->
+  <RealisticOrbitalTrade.AreYouReadyToPay>你已經做好選擇，準備好賠償我們了嗎？</RealisticOrbitalTrade.AreYouReadyToPay>
+
+  <!-- EN: I'm ready -->
+  <RealisticOrbitalTrade.IAmReadyToPay>我準備好了</RealisticOrbitalTrade.IAmReadyToPay>
+
+  <!-- EN: I'd like to choose differently -->
+  <RealisticOrbitalTrade.ResetPaymentChoices>我想重新選擇</RealisticOrbitalTrade.ResetPaymentChoices>
+
+  <!-- EN: Cancel amendment offer -->
+  <RealisticOrbitalTrade.CancelAmendmentLabel>取消補償提議</RealisticOrbitalTrade.CancelAmendmentLabel>
+
+  <!-- EN: Cancels the amendment offer associated with this shuttle. Any partially loaded items will be unloaded first, then the shuttle will leave. -->
+  <RealisticOrbitalTrade.CancelAmendmentDesc>取消這艘太空梭相關的補償提議。已部分裝上的物品會先卸下，然後太空梭離開。</RealisticOrbitalTrade.CancelAmendmentDesc>
+
+  <!-- EN: ({0} until comms close for trade) -->
+  <RealisticOrbitalTrade.UntilCommsCloseForTrade>（{0}後停止通訊交易）</RealisticOrbitalTrade.UntilCommsCloseForTrade>
+
+  <!-- EN: (comms closed for trade) -->
+  <RealisticOrbitalTrade.CommsClosedForTrade>（已停止通訊交易）</RealisticOrbitalTrade.CommsClosedForTrade>
+
+  <!-- EN: Involved in orbital trade with {0} -->
+  <RealisticOrbitalTrade.InvolvedInTradeWithInspectString>正在和{0}進行軌道交易</RealisticOrbitalTrade.InvolvedInTradeWithInspectString>
+
+  <!-- EN: Trade shuttle waiting to be loaded -->
+  <RealisticOrbitalTrade.ActiveTradeShuttle>交易太空梭等待裝載</RealisticOrbitalTrade.ActiveTradeShuttle>
+
+  <!-- EN: Trade shuttle departs in {0} -->
+  <RealisticOrbitalTrade.TradeShuttleDepartsIn>交易太空梭將在{0}後離開</RealisticOrbitalTrade.TradeShuttleDepartsIn>
+
+  <!-- EN: Trade shuttle involved in orbital trade with {0} departs on {{0}} -->
+  <RealisticOrbitalTrade.TradeShuttleDepartsOn>與{0}進行軌道交易的太空梭將於{{0}}離開</RealisticOrbitalTrade.TradeShuttleDepartsOn>
+
+  <!-- EN: The quest {0} requires you to load the following people or items onto the shuttle:\n{1} -->
+  <RealisticOrbitalTrade.TradeShuttleRequires>任務「{0}」要求你把下列人員或物品裝上太空梭：\n{1}</RealisticOrbitalTrade.TradeShuttleRequires>
+
+  <!-- EN: Trade shuttle leaving in {0} -->
+  <RealisticOrbitalTrade.QuestPartShuttleLeaveDelay>交易太空梭將在{0}後離開</RealisticOrbitalTrade.QuestPartShuttleLeaveDelay>
+
+  <!-- EN: The trade shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
+  <RealisticOrbitalTrade.QuestPartShuttleLeaveDelayDesc>交易太空梭將在{1}後離開。任務「{0}」要求你在太空梭離開前，把下列人員或物品裝上太空梭：\n{2}</RealisticOrbitalTrade.QuestPartShuttleLeaveDelayDesc>
+
+  <!-- EN: The trade shuttle will leave in {0}. -->
+  <RealisticOrbitalTrade.QuestPartShuttleLeaveDelayDescHidden>交易太空梭將在{0}後離開。</RealisticOrbitalTrade.QuestPartShuttleLeaveDelayDescHidden>
+
+  <!-- EN: Renegotiate trade agreement -->
+  <RealisticOrbitalTrade.RenegotiateTrade>重新協商交易協議</RealisticOrbitalTrade.RenegotiateTrade>
+
+  <!-- EN: (only trades made after renegotiation was added to the mod can be renegotiated) -->
+  <RealisticOrbitalTrade.OldTradeNonRenegotiable>（只有模組加入重新協商功能之後成立的交易才能重新協商）</RealisticOrbitalTrade.OldTradeNonRenegotiable>
+
+  <!-- EN: You've set all exchange of goods to zero. Did you intend to cancel the trade rather than renegotiate? -->
+  <RealisticOrbitalTrade.DidYouMeanToCancel>你把所有交易數量都設為零了。你是想取消交易，而不是重新協商嗎？</RealisticOrbitalTrade.DidYouMeanToCancel>
+
+  <!-- EN: Original negotiator: {0} (+{1}) -->
+  <RealisticOrbitalTrade.NegotiatorTradeDialogInfo>原會談代表:{0}(+{1})</RealisticOrbitalTrade.NegotiatorTradeDialogInfo>
+
+  <!-- EN: I've done my very best to test this feature thoroughly, but it is quite complex, so I might have missed some detail or messed up somewhere. I strongly recommend you save your game each time before you use this feature until you've convinced yourself it works 100% correctly. If you encounter any unexpected or incorrect behavior I would very much appreciate it if you reported it to me.\n\nIf you choose "Confirm" below, this message will not show again. -->
+  <RealisticOrbitalTrade.RenegotiationWarning>我已經盡力徹底測試這個功能，但它相當複雜，可能還是有疏漏或出錯的地方。在你確定它完全正常之前，強烈建議每次使用此功能前先存檔。如果遇到任何異常或錯誤的行為，非常歡迎回報給我。\n\n如果在下方選擇「確認」，這則訊息之後不會再顯示。</RealisticOrbitalTrade.RenegotiationWarning>
+
+  <!-- EN: Take over as trade negotiator -->
+  <RealisticOrbitalTrade.RegisterAsNegotiator>接手擔任交易會談代表</RealisticOrbitalTrade.RegisterAsNegotiator>
+
+  <!-- EN: {0} has taken over negotiations for the trade with {1}. -->
+  <RealisticOrbitalTrade.RegisteredAsNegotiator>{0}已接手與{1}的交易協商。</RealisticOrbitalTrade.RegisteredAsNegotiator>
+
+  <!-- EN: The original negotiator is gone. Right-click to assign a new one to resume autoloading and renegotiation. -->
+  <RealisticOrbitalTrade.NegotiatorUnavailableInspectString>原本的會談代表已經不在。對太空梭按右鍵指派新的會談代表，才能恢復自動裝載與重新協商。</RealisticOrbitalTrade.NegotiatorUnavailableInspectString>
+
+  <!-- EN: Trade negotiator unavailable -->
+  <RealisticOrbitalTrade.NegotiatorUnavailableLetterLabel>交易會談代表無法繼續</RealisticOrbitalTrade.NegotiatorUnavailableLetterLabel>
+
+  <!-- EN: {0}, who was negotiating your trade with {1}, is no longer able to continue. Autoloading tracking of colony goods and renegotiation won't work until you right-click the trade shuttle with a new negotiator to take over. Note that trade bonuses are a per-pawn concept, so you might find that prices have changed for renegotiation after changing out the negotiator. -->
+  <RealisticOrbitalTrade.NegotiatorUnavailableLetterText>負責與{1}交易的{0}已經無法繼續協商。在你用新的會談代表對交易太空梭按右鍵接手之前，殖民地貨物的自動裝載追蹤與重新協商都無法運作。注意交易加成是依個人計算的，更換會談代表後，重新協商時的價格可能會改變。</RealisticOrbitalTrade.NegotiatorUnavailableLetterText>
+
+  <!-- EN: An item, colonist or other creature already sold to the trader was lost before delivery. The trade is unbalanced and its shuttle won't launch until you renegotiate. -->
+  <RealisticOrbitalTrade.RenegotiationRequiredInspectString>已賣給商人的物品、殖民者或其他生物在交貨前遺失了。交易已經失衡，重新協商前太空梭不會起飛。</RealisticOrbitalTrade.RenegotiationRequiredInspectString>
+
+  <!-- EN: Missing -->
+  <RealisticOrbitalTrade.MissingSoldItemsLabel>遺失</RealisticOrbitalTrade.MissingSoldItemsLabel>
+
+  <!-- EN: {0} was already sold to the trader, but was lost before it could be loaded onto the shuttle. Renegotiate the trade to remove it from the deal. -->
+  <RealisticOrbitalTrade.MissingSoldItemTooltip>{0}已經賣給商人，但在裝上太空梭前遺失了。請重新協商交易，把它從交易中移除。</RealisticOrbitalTrade.MissingSoldItemTooltip>
+
+  <!-- EN: Sold trade goods lost -->
+  <RealisticOrbitalTrade.SoldItemLostLetterLabel>已售出的貨物遺失</RealisticOrbitalTrade.SoldItemLostLetterLabel>
+
+  <!-- EN: {0}, already sold to {1}, was lost before it could be delivered. The trade is now unbalanced and its shuttle won't launch until you renegotiate it. -->
+  <RealisticOrbitalTrade.SoldItemLostLetterText>已經賣給{1}的{0}在交貨前遺失了。交易現在已經失衡，重新協商前太空梭不會起飛。</RealisticOrbitalTrade.SoldItemLostLetterText>
+
+  <!-- EN: One or more items, colonists or other creatures already sold to {0} were found to be lost while this save was closed. The trade is now unbalanced and its shuttle won't launch until you renegotiate it. -->
+  <RealisticOrbitalTrade.SoldItemsLostOnLoadLetterText>已經賣給{0}的一或多件物品、殖民者或其他生物，在存檔關閉期間遺失了。交易現在已經失衡，重新協商前太空梭不會起飛。</RealisticOrbitalTrade.SoldItemsLostOnLoadLetterText>
+
+  <!-- EN: One or more required items can't currently be found anywhere in the colony (consumed, worn, stolen, etc.). Loading cannot finish until they turn up. You can also renegotiate to remove the missing items from the trade. -->
+  <RealisticOrbitalTrade.RequiredItemsMissingInspectString>一或多件需要的物品目前在殖民地裡找不到（被消耗、穿戴、偷走等）。找到之前無法完成裝載。你也可以重新協商，把遺失的物品從交易中移除。</RealisticOrbitalTrade.RequiredItemsMissingInspectString>
+
+  <!-- EN: One or more required items are available in the colony, but are marked forbidden, so colonists can't haul them onto the shuttle. Unforbid enough of them to continue loading, or renegotiate to remove them from the trade. -->
+  <RealisticOrbitalTrade.RequiredItemsForbiddenInspectString>一或多件需要的物品在殖民地裡，但被設為禁止，殖民者無法把它們搬上太空梭。解除足夠數量的禁止以繼續裝載，或重新協商把它們從交易中移除。</RealisticOrbitalTrade.RequiredItemsForbiddenInspectString>
+
+  <!-- EN: Some of the items sold are lying outside the colony's home area and outside any storage. Colonists only look for things to load onto the shuttle inside the home area or in storage, so loading can't finish. Expand the home area over them, move them into storage, or renegotiate to remove them from the trade. -->
+  <RealisticOrbitalTrade.RequiredItemsOutsideHomeInspectString>部分售出的物品放在殖民地生活區外，而且不在任何儲存區內。殖民者只會在生活區或儲存區裡尋找要裝上太空梭的物品，因此無法完成裝載。把生活區擴大到涵蓋它們、把它們移進儲存區，或重新協商把它們從交易中移除。</RealisticOrbitalTrade.RequiredItemsOutsideHomeInspectString>
+
+  <!-- EN: Buy more time ({0}, {1}) -->
+  <RealisticOrbitalTrade.BuyMoreTime>付費延長時間（{0}，{1}）</RealisticOrbitalTrade.BuyMoreTime>
+
+  <!-- EN: Pay {1} to extend this trade shuttle's departure timer by {0}? -->
+  <RealisticOrbitalTrade.ConfirmBuyMoreTime>支付{1}，把這艘交易太空梭的離開倒數延長{0}？</RealisticOrbitalTrade.ConfirmBuyMoreTime>
+
+  <!-- EN: Paid {1} to extend the trade shuttle's departure timer by {0}. -->
+  <RealisticOrbitalTrade.BoughtMoreTime>已支付{1}，交易太空梭的離開倒數延長了{0}。</RealisticOrbitalTrade.BoughtMoreTime>
+
+  <!-- EN: reserved for trade -->
+  <RealisticOrbitalTrade.ReservedForTradeSuffix>已保留給交易</RealisticOrbitalTrade.ReservedForTradeSuffix>
+
+  <!-- EN: {0} is reserved for an orbital trade agreement and can't be used for anything else until it's hauled to the trade shuttle. -->
+  <RealisticOrbitalTrade.ReservedForTradeMessage>{0}已保留給軌道交易協議，搬上交易太空梭之前不能挪作他用。</RealisticOrbitalTrade.ReservedForTradeMessage>
+
+  <!-- EN: Trade shuttle departing early -->
+  <RealisticOrbitalTrade.DepartureRenegotiationExplanationTitle>交易太空梭提前離開</RealisticOrbitalTrade.DepartureRenegotiationExplanationTitle>
+
+  <!-- EN: {0} is leaving before your trade shuttle finished loading. What's already loaded, including any silver, has been locked in as what you're selling - you can't add to it, not even by paying more silver. Reduce what you're buying until the trader's willing to accept it in exchange for what's already loaded. Closing the negotiation without accepting instead fails the whole trade and unloads the shuttle. -->
+  <RealisticOrbitalTrade.DepartureRenegotiationExplanationText>{0}在你的交易太空梭裝完之前就要離開了。已經裝上的東西（包括白銀）已鎖定為你賣出的內容，不能再增加，即使多付白銀也不行。請減少購買的物品，直到商人願意用已裝上的東西交換為止。不接受就關閉協商，整筆交易會失敗，太空梭也會卸貨。</RealisticOrbitalTrade.DepartureRenegotiationExplanationText>
+
+  <!-- EN: {0} can't be increased past the {1} already loaded onto the shuttle. -->
+  <RealisticOrbitalTrade.CantChangeLoadedGoods>{0}不能超過已裝上太空梭的{1}個。</RealisticOrbitalTrade.CantChangeLoadedGoods>
+
+  <!-- EN: Trade rebalanced -->
+  <RealisticOrbitalTrade.RenegotiationLostItemsExplanationTitle>交易已重新平衡</RealisticOrbitalTrade.RenegotiationLostItemsExplanationTitle>
+
+  <!-- EN: Because your colony lost these items before they could be delivered:\n\n{0}\n\nThe trade's value became imbalanced as a result, so the silver you owe {1} was increased by {2} to compensate. -->
+  <RealisticOrbitalTrade.RenegotiationLostItemsIncreasedOwedText>因為你的殖民地在交貨前遺失了這些物品：\n\n{0}\n\n交易價值因此失衡，所以你欠{1}的白銀增加了{2}作為補償。</RealisticOrbitalTrade.RenegotiationLostItemsIncreasedOwedText>
+
+  <!-- EN: Because your colony lost these items before they could be delivered:\n\n{0}\n\nThe trade's value became imbalanced as a result, so the silver you owe {1} was decreased by {2} to compensate. -->
+  <RealisticOrbitalTrade.RenegotiationLostItemsDecreasedOwedText>因為你的殖民地在交貨前遺失了這些物品：\n\n{0}\n\n交易價值因此失衡，所以你欠{1}的白銀減少了{2}作為補償。</RealisticOrbitalTrade.RenegotiationLostItemsDecreasedOwedText>
+
+  <!-- EN: Because your colony lost these items before they could be delivered:\n\n{0}\n\nThe trade's value became imbalanced as a result. Review the deal before accepting. -->
+  <RealisticOrbitalTrade.RenegotiationLostItemsNoCurrencyChangeText>因為你的殖民地在交貨前遺失了這些物品：\n\n{0}\n\n交易價值因此失衡。接受之前請先檢查交易內容。</RealisticOrbitalTrade.RenegotiationLostItemsNoCurrencyChangeText>
+
+  <!-- EN: silver already loaded -->
+  <RealisticOrbitalTrade.MaxPayableSilverLabel>已裝上的白銀</RealisticOrbitalTrade.MaxPayableSilverLabel>
+
+  <!-- EN: The trader is leaving before the shuttle finished loading, so this is capped: you can't pay more silver than what's already been loaded onto it, no matter how much you have in storage. Reduce what you're buying if the currency row above needs more than this. -->
+  <RealisticOrbitalTrade.MaxPayableSilverTip>商人在太空梭裝完之前就要離開，所以這裡有上限：不管倉庫裡有多少白銀，你支付的白銀都不能超過已裝上太空梭的數量。如果上方貨幣列需要的比這更多，請減少購買的物品。</RealisticOrbitalTrade.MaxPayableSilverTip>
+
+  <!-- EN: Closing this without accepting will fail the trade and unload the shuttle. Are you sure? -->
+  <RealisticOrbitalTrade.ConfirmDepartureRenegotiationCancel>不接受就關閉，交易會失敗，太空梭也會卸貨。確定嗎？</RealisticOrbitalTrade.ConfirmDepartureRenegotiationCancel>
+
+</LanguageData>

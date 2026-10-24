@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>introLetterLabel->Amends offer accepted</li>
+    <li>introLetterText->We've sent a shuttle for you to load the items and silver you have chosen to pay us back into. Once we've received our things, your blacklisted status will be lifted.\n\nMake sure you don't take too long, the shuttle will leave when we do, and if you have not sent off the items owed to us by then, the amendment offer will be annulled.\n\nBecause you have betrayed us in the past, we've taken steps to discourage you from doing this again by strapping explosives to the shuttle.</li>
+    <li>graceTimeLetterLabel->Amends offer grace period</li>
+    <li>graceTimeLetterText->We were originally going to be leaving comms range in only [graceTimeTimeLeft], but since that might be too little time for you to load up the shuttle, we're willing to wait around in orbit for up to an additional [graceTimeTimeExtra] — i.e. a total of [graceTimeTimeTotal] — to let you fulfill this amendment offer.</li>
+    <li>expiredOfferLetterLabel->Amends offer expired</li>
+    <li>expiredOfferLetterText->Due to tardiness, you've unfortunately left us no choice but to leave without concluding the amends offer. Try to be more prompt next time!\n\n[partialLoadReturned]</li>
+    <li>shuttleKilledLetterLabel->Amends shuttle destroyed</li>
+    <li>shuttleKilledLetterText->There's something extraordinarily depraved about destroying the very means by which you were intended to make amends. However, since we're used to dealing with unscrupulous blacklisted factions, we use our most dilapidated, barely functioning shuttles for this purpose, which only contain a few metal scraps of useful materials at best, so you gain very little by doing this.</li>
+    <li>successLetterLabel->Amends made</li>
+    <li>successLetterText->The orbital traders guild thanks you for reimbursing us the reparations requested. You are once again in good standing, and you'll find that our traders are willing to make trades with you again.\n\nWhile we may forgive, we do not forget, thus all future shuttles involved in orbital trades with you will come with explosives strapped to them.</li>
+    <li>cancelledLetterLabel->Amends offer cancelled</li>
+    <li>cancelledLetterText->Contact one of us again if you change your mind.\n\n[partialLoadReturned]</li>
+    <li>partialLoadReturned->If you had partially loaded something onto our shuttle, it has been returned to you.</li>
+  -->
+  <ROT_TradeShipMakeAmends.questContentRules.rulesStrings>
+    <li>introLetterLabel->賠償提議已接受</li>
+    <li>introLetterText->我們已經派了一艘太空梭，讓你裝上你選擇用來賠償的物品和白銀。收到東西後，你就會從黑名單中移除。\n\n別拖太久，我們離開時太空梭也會跟著離開。如果到時你還沒把欠我們的物品送出，賠償提議就會作廢。\n\n因為你過去背叛過我們，為了讓你不敢再犯，我們在太空梭上綁了炸藥。</li>
+    <li>graceTimeLetterLabel->賠償提議寬限期</li>
+    <li>graceTimeLetterText->我們原本再過[graceTimeTimeLeft]就會離開通訊範圍，但這點時間可能不夠你裝完太空梭，所以我們願意在軌道上多等最多[graceTimeTimeExtra]（也就是總共[graceTimeTimeTotal]），讓你完成這次賠償。</li>
+    <li>expiredOfferLetterLabel->賠償提議已過期</li>
+    <li>expiredOfferLetterText->你動作太慢，我們只好在賠償完成前離開。下次請準時一點！\n\n[partialLoadReturned]</li>
+    <li>shuttleKilledLetterLabel->賠償太空梭被摧毀</li>
+    <li>shuttleKilledLetterText->把原本讓你賠罪用的太空梭也摧毀掉，實在是喪心病狂。不過我們很習慣和被列入黑名單的無良派系打交道，這種用途只會派出最破舊、勉強能飛的太空梭，裡面頂多只有幾塊金屬碎片，你這麼做幾乎得不到什麼好處。</li>
+    <li>successLetterLabel->賠償完成</li>
+    <li>successLetterText->軌道商人公會感謝你支付我們要求的賠償。你已恢復良好信譽，我們的商人也願意再次和你交易。\n\n雖然我們可以原諒，但不會忘記，因此今後所有和你進行軌道交易的太空梭都會綁上炸藥。</li>
+    <li>cancelledLetterLabel->賠償提議已取消</li>
+    <li>cancelledLetterText->如果你改變主意，可以再聯絡我們任何一位商人。\n\n[partialLoadReturned]</li>
+    <li>partialLoadReturned->如果你已經把部分東西裝上我們的太空梭，它們已經還給你了。</li>
+  </ROT_TradeShipMakeAmends.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->After having destroyed the shuttle of an orbital trader, your faction was blacklisted from trading with the orbital traders. You've contacted one of them and promised to make amends. They'll be sending a shuttle for you to load the items and silver you have chosen to pay back into.</li>
+  -->
+  <ROT_TradeShipMakeAmends.questDescriptionRules.rulesStrings>
+    <li>questDescription->你摧毀了軌道商人的太空梭，你的派系因此被列入軌道商人的交易黑名單。你已經聯絡了其中一位商人並承諾賠償。他們會派一艘太空梭下來，讓你裝上你選擇用來賠償的物品和白銀。</li>
+  </ROT_TradeShipMakeAmends.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Making amends with the orbital trade guild</li>
+  -->
+  <ROT_TradeShipMakeAmends.questNameRules.rulesStrings>
+    <li>questName->向軌道商人公會賠罪</li>
+  </ROT_TradeShipMakeAmends.questNameRules.rulesStrings>
+  
+</LanguageData>
